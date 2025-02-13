@@ -1,4 +1,7 @@
-
+'''
+This Script is used to enumerate existing web-users for TryHackMe's __Lookup__
+Response for non-existing users will include 'Wrong username'
+'''
 import requests
 
 url = "http://lookup.thm/login.php"
